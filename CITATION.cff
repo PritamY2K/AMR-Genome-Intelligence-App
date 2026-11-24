@@ -19,4 +19,5 @@ preferred-citation:
   year: 2026
   doi: "10.5281/zenodo.24497233"
   version: "1.0.0"
-  publisher: "Zenodo"
+  publisher:
+    name: Zenodo
