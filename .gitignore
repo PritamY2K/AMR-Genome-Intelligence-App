@@ -1,0 +1,57 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Credentials and keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# Local analysis outputs
+data/
+results/
+outputs/
+downloads/
+genomes/
+assemblies/
+fastq/
+raw_reads/
+Validation/
+
+# Generated biological sequence files
+*.fastq
+*.fastq.gz
+*.fasta
+*.fasta.gz
+*.fna
+*.fna.gz
+*.faa
+*.faa.gz
+*.sam
+*.bam
+*.cram
+
+# Operating-system files
+.DS_Store
+Thumbs.db

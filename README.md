@@ -37,7 +37,17 @@ The required software, reference databases and environment variables must be con
 
 ## Comparative annotation results
 
-The original analysis generated 111,142 tool-specific annotation records across four established annotation methods.
+The original analysis generated 111,142 tool-specific
+annotation records across four established annotation methods.
+
+The published Zenodo dataset provides a separately curated
+subset of 25,906 annotation records:
+
+- AMRFinderPlus: 14,222
+- ABRicate-ResFinder: 11,684
+
+CARD-RGI and ABRicate-CARD results are not included
+in the Zenodo deposit.
 
 Differences in reported annotation numbers reflect the tools' database coverage, matching criteria and reporting conventions, and should not be interpreted as direct measures of diagnostic accuracy.
 
@@ -47,7 +57,26 @@ The included nonproprietary workflow has undergone a successful one-genome funct
 
 ## Data availability
 
-The genome accession list is provided in this repository. Additional supporting research datasets may be deposited separately following scientific and confidentiality review.
+The genome accession list is provided in this repository.
+
+The supporting research dataset is publicly available
+from Zenodo:
+
+Chattopadhyay, P. (2026).
+AMR Genome Intelligence App: Genome Accessions,
+Source-Reported Antimicrobial Susceptibility Data,
+and Resistance Gene Annotations for a 1,000-Genome Panel.
+Version 1.0.0.
+
+https://doi.org/10.5281/zenodo.24497233
+
+The Zenodo deposit includes 1,819 source-reported AST
+observations, 2,782 reference ARG annotations,
+and 25,906 computational annotation records.
+
+The experimental AST observations are source-reported
+and do not constitute an independently validated
+clinical phenotype benchmark.
 
 ## Intellectual property
 
@@ -55,4 +84,9 @@ This repository contains only separately reviewed, nonproprietary research resou
 
 ## Citation
 
-Citation details for the associated manuscript will be added following publication.
+Please cite the published Zenodo dataset:
+
+https://doi.org/10.5281/zenodo.24497233
+
+Citation details for the associated journal manuscript
+will be added after its publication.

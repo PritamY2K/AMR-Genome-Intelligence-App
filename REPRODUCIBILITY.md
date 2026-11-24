@@ -1,4 +1,4 @@
-.# Reproducibility Guide
+# Reproducibility Guide
 
 ## Operating system
 
@@ -25,17 +25,19 @@ The shared Bash configuration is located at:
 
     scripts/_amr_common.sh
 
-## Validation runner
+## Historical validation runner
 
-The Python validation runner accepts:
+The original study used additional validation resources,
+including a 1,000-genome validation workflow.
 
-    python3 scripts/run_amr_validation_1000.py --base PROJECT_ROOT --dry-run
+The historical validation runner and its intermediate
+research files are not included in this publication
+repository. The commands for those unavailable files
+must not be represented as executable instructions
+for the public repository.
 
-The runner requires the original project directory layout,
-including Validation/amr_panel_1000_intermediate.json
-and scripts/run_accession_amr.sh.
-
-The dry-run option should be used before any actual execution.
+The included scripts provide a separate
+accession-based annotation workflow.
 
 ## Safety warning
 
@@ -46,23 +48,34 @@ Use a dedicated analysis directory. Do not execute these
 scripts against valuable or irreplaceable working directories
 without reviewing their operations.
 
-## AST evidence matching
+## AST evidence and data availability
 
-The evidence matching script expects:
+The source-reported AST observations and selected
+computational annotations are available in the
+published Zenodo dataset:
 
-    Validation/phenotype_validation/AMR_Intel_1000_AST_validation_master.tsv
-    Validation/phenotype_validation/all_1000_tool_predictions.tsv
+https://doi.org/10.5281/zenodo.24497233
 
-It produces:
+Historical evidence-matching scripts and their
+intermediate research files are not included
+in this publication repository.
 
-    Validation/phenotype_validation/AMR_AST_ResFinder_evidence_matches.tsv
+The deposited annotation subset excludes CARD-based
+tool results.
 
-Evidence matching is not equivalent to validated
-genotype-phenotype prediction.
+Evidence matching is not equivalent to independently
+validated genotype-phenotype prediction.
 
 ## Reproducibility limitation
 
 Exact reproduction requires the reference database releases,
 software versions, input data, original directory structure,
 and runtime configuration used in the frozen analysis.
-These requirements are being verified before public release.
+The documented software and database versions
+describe an inspected environment and have not
+been established as an exact historical execution
+snapshot.
+
+The released accession-based scripts support a
+limited reproducibility workflow, not automatic
+reconstruction of all historical study outputs.

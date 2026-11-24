@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  If you use the publication-supporting scripts or documentation,
+  please cite this repository. If you use the underlying research
+  dataset, please also cite the Zenodo dataset.
+type: software
+title: "AMR Genome Intelligence App: Publication Resources"
+authors:
+  - family-names: Chattopadhyay
+    given-names: Pritam
+repository-code: "https://github.com/PritamY2K/AMR-Genome-Intelligence-App"
+license: "MIT"
+preferred-citation:
+  type: data
+  title: "AMR Genome Intelligence App: Genome Accessions, Source-Reported Antimicrobial Susceptibility Data, and Resistance Gene Annotations for a 1,000-Genome Panel"
+  authors:
+    - family-names: Chattopadhyay
+      given-names: Pritam
+  year: 2026
+  doi: "10.5281/zenodo.24497233"
+  version: "1.0.0"
+  publisher: "Zenodo"
