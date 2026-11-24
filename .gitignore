@@ -33,6 +33,7 @@ data/
 results/
 outputs/
 downloads/
+ncbi_downloads/
 genomes/
 assemblies/
 fastq/
